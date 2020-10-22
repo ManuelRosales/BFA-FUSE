@@ -1,5 +1,6 @@
 package com.mycompany.camel;
 
+
 import org.apache.camel.builder.RouteBuilder;
 
 public class CamelRoute extends RouteBuilder {
