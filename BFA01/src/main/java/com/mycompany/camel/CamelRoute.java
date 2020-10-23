@@ -20,6 +20,8 @@ public class CamelRoute extends RouteBuilder {
         either of the <when/> elements will be moved to the work/cbr/output/others directory.
         
 		 */
+		
+		/* editado por mi*/
 
 		from("file:work/cbr/input")
 			.log("Receiving order ${file:name}")
