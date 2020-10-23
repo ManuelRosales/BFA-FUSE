@@ -21,7 +21,7 @@ public class CamelRoute extends RouteBuilder {
         
 		 */
 		
-		/* editado por mi....*/
+		/* editado por mi.... 5veces*/
 
 		from("file:work/cbr/input")
 			.log("Receiving order ${file:name}")
