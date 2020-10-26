@@ -146,24 +146,25 @@
       </plugin>     
       <!-- plugin karaf -->
       <plugin>
-          <groupId>org.apache.karaf.tooling</groupId>
-          <artifactId>karaf-maven-plugin</artifactId>
-          <executions>
-            <execution>
-			    <id>deploy</id>
-			    <goals>
-			        <goal>deploy</goal>
-			    </goals>
-			    <configuration>
-			        <useProjectArtifact>true</useProjectArtifact>
-			        <port>8181</port>
-			        <host>192.168.1.41</host>
-			        <user>fuseAdmin</user>
-			        <password>welcome1</password>
-			    </configuration>
-			 </execution>
-          </executions>
-      </plugin>
+		    <groupId>org.apache.karaf.tooling</groupId>
+		    <artifactId>karaf-maven-plugin</artifactId>
+		    <version>4.2.10</version>
+		    <executions>
+		    <execution>
+		        <id>deploy</id>
+		        <goals>
+		            <goal>deploy</goal>
+		        </goals>
+		        <configuration>    	             
+		            <useProjectArtifact>true</useProjectArtifact>
+		            <port>8181</port>
+		            <host>192.168.1.45</host>
+		            <user>fuseAdmin</user>
+		            <password>welcome1</password>
+		        </configuration>
+		        </execution>
+		    </executions>
+		</plugin>
       <!-- -->
     </plugins>
   </build>
