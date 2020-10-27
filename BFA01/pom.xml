@@ -2,8 +2,13 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
+  <!--  
   <groupId>com.mycompany</groupId>
   <artifactId>camel-java-cbr</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  -->
+  <groupId>com.example</groupId>
+  <artifactId>my-ace-bundle</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Fuse CBR Quickstart - Java</name>
@@ -113,7 +118,10 @@
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
+        <!--  
         <version>${version.maven-bundle-plugin}</version>
+        -->
+        <version>2.3.7</version>
         <extensions>true</extensions>
         <configuration>
           <instructions>
@@ -144,7 +152,7 @@
           <includePluginDependencies>false</includePluginDependencies>
         </configuration>
       </plugin>     
-      <!-- plugin karaf 
+      <!-- plugin karaf
       <plugin>
 		    <groupId>org.apache.karaf.tooling</groupId>
 		    <artifactId>karaf-maven-plugin</artifactId>
