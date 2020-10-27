@@ -144,7 +144,7 @@
           <includePluginDependencies>false</includePluginDependencies>
         </configuration>
       </plugin>     
-      <!-- plugin karaf -->
+      <!-- plugin karaf 
       <plugin>
 		    <groupId>org.apache.karaf.tooling</groupId>
 		    <artifactId>karaf-maven-plugin</artifactId>
@@ -157,15 +157,17 @@
 		        </goals>
 		        <configuration>    	             
 		            <useProjectArtifact>true</useProjectArtifact>
-		            <port>8181</port>
+		            <port>8101</port>
 		            <host>192.168.1.45</host>
 		            <user>fuseAdmin</user>
 		            <password>welcome1</password>
+		            <useSsh>true</useSsh>
+		            <instance>karaf</instance>
 		        </configuration>
 		        </execution>
 		    </executions>
 		</plugin>
-      <!-- -->
+       -->
     </plugins>
   </build>
 </project>
