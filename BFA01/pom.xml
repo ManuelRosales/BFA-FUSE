@@ -168,7 +168,7 @@
 		        <configuration>    	             
 		            <useProjectArtifact>true</useProjectArtifact>
 		            <port>8101</port>
-		            <host>192.168.1.45</host>
+		            <host>192.168.1.46</host>
 		            <user>fuseAdmin</user>
 		            <password>welcome1</password>
 		            <useSsh>true</useSsh>
@@ -178,6 +178,7 @@
 		    </executions>
 		</plugin>
        -->
+       <!-- esto es una prueba -->
     </plugins>
   </build>
 </project>
